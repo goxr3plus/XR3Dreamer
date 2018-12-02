@@ -48,7 +48,7 @@ public class TopBar extends BorderPane {
 	}
 	
 	/**
-	 * Called as soon as .fxml is initialized [[SuppressWarningsSpartan]]
+	 * Called as soon as .fxml is initialized
 	 */
 	@FXML
 	private void initialize() {

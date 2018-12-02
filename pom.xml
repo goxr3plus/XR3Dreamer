@@ -55,8 +55,8 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>main.java.com.goxr3plus.xr3player.application.Main</mainClass>
-							<classpathPrefix>XR3Player_lib/</classpathPrefix>
+							<mainClass>main.java.com.goxr3plus.xr3dreamer.application.Main</mainClass>
+							<classpathPrefix>XR3Dreamer_lib/</classpathPrefix>
 						</manifest>
 					</archive>
 				</configuration>
@@ -77,7 +77,7 @@
 						<configuration>
 							<!-- exclude junit, we need runtime dependency only -->
 							<excludeArtifactIds> junit </excludeArtifactIds>
-							<outputDirectory>${project.build.directory}/XR3Player_lib/</outputDirectory>
+							<outputDirectory>${project.build.directory}/XR3Dreamer_lib/</outputDirectory>
 						</configuration>
 					</execution>
 				</executions>
@@ -109,7 +109,7 @@
 					<descriptors>
 						<descriptor>src/assembly/assembly.xml</descriptor>
 					</descriptors>
-					<finalName>XR3Player Update ${my.project.version}</finalName>
+					<finalName>XR3Dreamer Update ${my.project.version}</finalName>
 					<appendAssemblyId>false</appendAssemblyId>
 				</configuration>
 				<executions>
@@ -209,14 +209,6 @@
 		</dependency>
 
 
-
-		<!-- https://mvnrepository.com/artifact/com.googlecode.soundlibs/tritonus-all -->
-		<dependency>
-			<groupId>com.googlecode.soundlibs</groupId>
-			<artifactId>tritonus-all</artifactId>
-			<version>0.3.7.2</version>
-		</dependency>
-
 		<!-- FX-BorderlessScene -->
 		<dependency>
 			<groupId>com.github.goxr3plus</groupId>
@@ -224,11 +216,6 @@
 			<version>V3.1.0</version>
 		</dependency>
 
-		<!-- Plularizer -->
-		<dependency>
-			<groupId>org.atteo</groupId>
-			<artifactId>evo-inflector</artifactId>
-			<version>1.2.2</version>
-		</dependency>
+
 	</dependencies>
 </project>
